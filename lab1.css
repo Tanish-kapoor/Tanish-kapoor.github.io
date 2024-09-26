@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/736x/39/60/10/396010118a7b68e3d3494ce026d6f416.jpg"
+        );
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+#myParagraph {
+    color: #f4f4f9;
+    cursor: pointer;
+}
+
+.event-demo,
+.form-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #ff9191;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 22px);
+    border: 1px solid #3e3e3e;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #646464;
+    color: rgb(255, 185, 185);
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #656565;
+}

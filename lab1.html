@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive HTML Events</title>
+    <link rel="stylesheet" href="lab1.css">
+</head>
+<body>
+    <h1>An Interactive Webpage that deomonstrate common HTMl Events </h1>
+
+    <!-- Mouse Events -->
+    <div class="event-demo">
+        <button id="clickButton">Click Me</button>
+        <button id="dblclickButton">Double Click Me</button>    
+    </div>
+    <!-- Form with Validation -->
+    <div class="form-container">
+        <h2>Form with Validation</h2>
+        <form id="sampleForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        <p id="formMessage"></p>
+    </div>
+    
+    <h3 id="myParagraph">Double-click Here</h3>   
+
+    <script src="lab1.js"></script>
+</body>
+</html>
